@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:book"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "data": {
+      "StoredEnchantments": [
+        {
+          "id": "netherited:fireproof",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

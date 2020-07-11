@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.polpg.netherited.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FireMixin",
+    "EntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
