@@ -7,7 +7,7 @@ Ever wanted to save your all items from lava like you now can with your Netherit
 ## DEPENDENCIES
 ### Fabric
 
-This mod needs to be downloaded alongside NBT Crafting.
+This mod needs to be downloaded alongside [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
 
 ### Forge
 []
