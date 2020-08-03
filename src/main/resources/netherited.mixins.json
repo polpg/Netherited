@@ -4,8 +4,7 @@
   "package": "com.polpg.netherited.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "FireMixin",
-    "EntityMixin"
+    "ItemEntityMixin"
   ],
   "client": [],
   "server": [],
