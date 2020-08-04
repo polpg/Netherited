@@ -16,10 +16,13 @@ To get a Fireproof Enchanted Book just place a book and a Netherite ingot in the
 
 ![recipe](https://github.com/polpg/Netherited/blob/fabric/recipe.png)
 
+
+Shulker boxes can be enchanted with Fireproof, but when placed, drop the enchantment book. You will have to apply it again in an anvil.
+
+
 The items that cannot be applied with Fireproof are:
 
 - Netherite Items
 
 - Books (cannot get Fireproof itself, has to be enchanted in the smithing table).
 
-- Shulker Boxes (WIP)
