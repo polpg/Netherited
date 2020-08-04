@@ -30,7 +30,7 @@ public class EnchantmentFireproof extends Enchantment{
 
     @Override
     public boolean isAcceptableItem(ItemStack stack) {
-        if (stack.getItem() == Items.SHULKER_BOX || stack.getItem() == Items.BOOK) return false;
+        if (stack.getItem() == Items.BOOK) return false;
         return !stack.getItem().isFireproof();
     }
 
