@@ -19,6 +19,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.polpg.netherited.EnchantUtil.getFireproofBook;
+
 @Mixin(ShulkerBoxBlock.class)
 public class ShulkerBoxBlockMixin {
 
@@ -26,14 +28,9 @@ public class ShulkerBoxBlockMixin {
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack, CallbackInfo info) {
        if (EnchantmentHelper.getLevel(NetheritedMod.ENCHANTMENT_FIREPROOF, itemStack) == 1) {
 
-           ItemStack book = new ItemStack(Items.ENCHANTED_BOOK);
-           Map<Enchantment, Integer> ench = new HashMap<Enchantment, Integer>();
-           ench.put(NetheritedMod.ENCHANTMENT_FIREPROOF, 1);
-           EnchantmentHelper.set(ench, book);
-
+           ItemStack book = getFireproofBook();
            ItemEntity entity = new ItemEntity(world, placer.getPos().x, placer.getPos().y, placer.getPos().z, book);
            world.spawnEntity(entity);
-
        }
     }
 }
