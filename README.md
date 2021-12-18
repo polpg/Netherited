@@ -2,7 +2,10 @@
 
 Ever wanted to save your all items from lava like you now can with your Netherite tools? Look no further! The Netherited mod adds the Fireproof enchantment which prevents any item that falls into lava or touches fire from disappearing.
 
-[![curseforge downloads](http://cf.way2muchnoise.eu/394829.svg)](https://www.curseforge.com/minecraft/mc-mods/fabric-netherited)
+### Downloads
+Forge [![curseforge downloads](http://cf.way2muchnoise.eu/394830.svg)](https://www.curseforge.com/minecraft/mc-mods/netherited)
+
+Fabric [![curseforge downloads](http://cf.way2muchnoise.eu/394829.svg)](https://www.curseforge.com/minecraft/mc-mods/fabric-netherited)
 
 ## DEPENDENCIES
 
