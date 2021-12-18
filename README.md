@@ -22,7 +22,7 @@ This mod needs to be downloaded alongside [NBT Crafting](https://www.curseforge.
 
 To get a Fireproof Enchanted Book just place a book and a Netherite ingot in the Smithing Table. After getting it, apply it to any item you want with an anvil.
 
-![recipe](https://github.com/polpg/Netherited/blob/fabric/recipe.png)
+![recipe](https://github.com/polpg/Netherited/blob/main/recipe.png)
 
 
 Shulker boxes can be enchanted with Fireproof, but when placed, drop the enchantment book. You will have to apply it again in an anvil.
