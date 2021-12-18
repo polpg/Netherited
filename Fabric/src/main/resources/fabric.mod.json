@@ -1,0 +1,40 @@
+{
+    "schemaVersion": 1,
+    "id": "netherited",
+    "version": "${version}",
+  
+    "name": "Netherited",
+    "description": "This mod adds a new enchantment that prevents item from burning in fire and lava.",
+    "authors": [
+      "polpg"
+    ],
+    "contact": {
+      "homepage": "https://www.curseforge.com/minecraft/mc-mods/fabric-netherited",
+      "sources": ""
+    },
+  
+    "license": "CC0-1.0",
+    "icon": "assets/netherited/icon.png",
+  
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "com.polpg.netherited.NetheritedMod"
+      ]
+    },
+    "mixins": [
+      "netherited.mixins.json"
+    ],
+  
+    "depends": {
+      "fabricloader": ">=0.12",
+      "fabric": "*",
+      "minecraft": "1.18.x",
+      "java": ">=17",
+      "nbtcrafting": "*"
+    },
+    "suggests": {
+      "another-mod": "*"
+    }
+  }
+  

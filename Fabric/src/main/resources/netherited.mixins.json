@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.polpg.netherited.mixin",
+    "compatibilityLevel": "JAVA_16",
+    "mixins": [
+      "ItemEntityMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
+  
