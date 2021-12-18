@@ -5,6 +5,11 @@ Ever wanted to save your all items from lava like you now can with your Netherit
 [![curseforge downloads](http://cf.way2muchnoise.eu/394829.svg)](https://www.curseforge.com/minecraft/mc-mods/fabric-netherited)
 
 ## DEPENDENCIES
+
+### Forge 
+Versions for 1.18+ do not have dependencies.
+For versions for 1.16 and previous, this mods needs to be downloaded alongside [Shulker Enchantments (Forge)](https://www.curseforge.com/minecraft/mc-mods/shulker-enchantments).
+
 ### Fabric
 
 This mod needs to be downloaded alongside [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
