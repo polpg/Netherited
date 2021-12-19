@@ -20,6 +20,5 @@ public class NetheritedMod implements ModInitializer {
     
         // Registration
         Registry.register(Registry.ENCHANTMENT, new ResourceLocation("netherited", "fireproof"), FIREPROOF);
-    
     }
 }

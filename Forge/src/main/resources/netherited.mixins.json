@@ -3,7 +3,11 @@
   "package": "com.polpg.netherited.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ItemEntityMixin"
+    "ItemEntityMixin",
+    "BlockItemMixin",
+    "ShulkerBoxBlockMixin",
+    "BlockBehaviourMixin",
+    "BlockEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

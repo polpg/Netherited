@@ -6,6 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
+import net.minecraft.world.level.block.BaseEntityBlock;
 
 public class EnchantmentFireproof extends Enchantment {
     
@@ -26,7 +27,7 @@ public class EnchantmentFireproof extends Enchantment {
     @Override
     public boolean canEnchant(ItemStack stack) {
         if (stack.getItem() == Items.BOOK) return false;
-        if (stack.getItem() instanceof BlockItem) return false;
+        if ((stack.getItem() instanceof BlockItem blockItem) && !(blockItem.getBlock() instanceof BaseEntityBlock)) return false;
         return !stack.getItem().isFireResistant();
     }
     
