@@ -2,6 +2,7 @@ package com.polpg.netherited;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 
 public class NetheritedMod implements ModInitializer {
@@ -19,6 +20,6 @@ public class NetheritedMod implements ModInitializer {
         Constants.LOG.info("Hello Fabric world!");
     
         // Registration
-        Registry.register(Registry.ENCHANTMENT, new ResourceLocation("netherited", "fireproof"), FIREPROOF);
+        Registry.register(BuiltInRegistries.ENCHANTMENT, new ResourceLocation("netherited", "fireproof"), FIREPROOF);
     }
 }
