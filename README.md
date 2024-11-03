@@ -1,36 +1,17 @@
 # Netherited
 
-Ever wanted to save your all items from lava like you now can with your Netherite tools? Look no further! The Netherited mod adds the Fireproof enchantment which prevents any item that falls into lava or touches fire from disappearing.
-
+Ever wanted to save your all items from lava like you now can with your Netherite tools? Look no further! The Netherited mod adds the Fireproof enchantment which prevents any item that falls into lava or touches fire from disappearing. In versions for 1.18+, Shulker Boxes can be enchanted with Fireproof and retain the enchantment.
 ### Downloads
-Forge [![curseforge downloads](http://cf.way2muchnoise.eu/394830.svg)](https://www.curseforge.com/minecraft/mc-mods/netherited)
 
-Fabric [![curseforge downloads](http://cf.way2muchnoise.eu/394829.svg)](https://www.curseforge.com/minecraft/mc-mods/fabric-netherited)
+Modrinth [![Modrinth Downloads](https://img.shields.io/modrinth/dt/LboV1AEJ)](https://modrinth.com/mod/netherited-fireproof)
 
-## DEPENDENCIES
+CurseForge [![curseforge downloads](http://cf.way2muchnoise.eu/394830.svg)](https://www.curseforge.com/minecraft/mc-mods/netherited)
+## How it works
 
-### Forge 
-Versions for 1.18+ do not have dependencies.
-For versions for 1.16 and previous, this mods needs to be downloaded alongside [Shulker Enchantments (Forge)](https://www.curseforge.com/minecraft/mc-mods/shulker-enchantments).
+To get a Fireproof Enchanted Book just place a book, a Netherite ingot, and a Netherite Upgrade in the Smithing Table. After getting it, apply it to any item you want with an anvil.
 
-### Fabric
-
-This mod needs to be downloaded alongside [NBT Crafting](https://www.curseforge.com/minecraft/mc-mods/nbt-crafting) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api).
- 
-
-## HOW TO OBTAIN
-
-To get a Fireproof Enchanted Book just place a book and a Netherite ingot in the Smithing Table. After getting it, apply it to any item you want with an anvil.
-
-![recipe](https://github.com/polpg/Netherited/blob/main/recipe.png)
+![recipe](https://github.com/polpg/Netherited/blob/1.21/recipe.png)
 
 
-Shulker boxes can be enchanted with Fireproof, but when placed, drop the enchantment book. You will have to apply it again in an anvil.
-
-
-The items that cannot be applied with Fireproof are:
-
-- Netherite Items
-
-- Books (cannot get Fireproof itself, has to be enchanted in the smithing table).
+Shulker boxes can be enchanted with Fireproof, and keep the enchantment when placed and broken.
 
