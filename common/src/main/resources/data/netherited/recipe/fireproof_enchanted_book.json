@@ -1,14 +1,8 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  },
-  "base": {
-    "item": "minecraft:book"
-  },
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:book",
+  "addition": "minecraft:netherite_ingot",
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
