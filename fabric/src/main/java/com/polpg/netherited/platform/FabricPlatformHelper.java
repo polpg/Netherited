@@ -6,7 +6,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 import java.util.function.Supplier;
 
@@ -31,7 +31,7 @@ public class FabricPlatformHelper implements IPlatformHelper {
     public <T> Supplier<DataComponentType<T>> registerEnchantmentEffectComponent(String componentName, DataComponentType<T> component) {
         final DataComponentType<T> registeredComponent = Registry.register(
                 BuiltInRegistries.ENCHANTMENT_EFFECT_COMPONENT_TYPE,
-                ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, componentName),
+                Identifier.fromNamespaceAndPath(Constants.MOD_ID, componentName),
                 component
         );
         return () -> registeredComponent;
